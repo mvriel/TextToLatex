@@ -51,7 +51,8 @@ class TextToLatexTest extends \PHPUnit_Framework_TestCase
      */
     public function testConvertEllipsisToSpecialCode()
     {
-        $this->assertSame('123\ldots456', $this->fixture->convert('123...456'));
+        $this->assertSame('123{\ldots}456', $this->fixture->convert('123...456'));
+        $this->assertSame('try{\ldots}catch', $this->fixture->convert('try...catch'));
     }
 
     /**
