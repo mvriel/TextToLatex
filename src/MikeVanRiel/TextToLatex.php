@@ -67,7 +67,7 @@ class TextToLatex
             array(
                 '\\1{\\ldots}\\2',
                 '\\1\enquote{',
-                "}\\1",
+                '}\\1',
                 '\1`'
             ),
             $string
