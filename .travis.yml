@@ -1,6 +1,5 @@
 language: php
 php:
-  - 5.3.3
   - 5.3
   - 5.4
   - 5.5
@@ -14,8 +13,6 @@ script:
  - vendor/bin/phpunit
 
 before_script:
- - apt-get update
- - apt-get install openssl
  - composer install -n --prefer-source --dev
 
 notifications:
