@@ -60,7 +60,7 @@ class TextToLatexTest extends \PHPUnit_Framework_TestCase
      */
     public function testConvertDoubleQuotesToBackTicks()
     {
-        $this->assertSame("``456''", $this->fixture->convert('"456"'));
+        $this->assertSame("\\enquote{456}", $this->fixture->convert('"456"'));
     }
 
     /**
