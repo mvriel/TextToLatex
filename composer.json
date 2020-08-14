@@ -2,7 +2,7 @@
     "name": "mikevanriel/text-to-latex",
     "description": "A converter class that converts normal ASCII text to valid LaTeX",
     "autoload": {
-        "psr-0":{ "MikeVanRiel": ["src/", "tests/unit/"] }
+        "psr-0":{ "MikeVanRiel": ["src/", "tests/unit/src"] }
     },
     "license": "MIT",
     "authors": [
